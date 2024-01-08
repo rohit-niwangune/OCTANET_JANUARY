@@ -1,0 +1,333 @@
+/* Your existing CSS remains unchanged */
+/* Resetting default margin and padding */
+body, h1, ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Styles for the sexy notch header */
+.sexy-notch-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.brand h1 {
+  font-size: 24px;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+}
+.navigation ul li {
+  margin-right: 20px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for navigation links */
+.navigation ul li a:hover {
+  color: #ffd700; /* Change color on hover (adjust as needed) */
+}
+
+
+.navigation ul li {
+  margin-right: 20px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+/* Style the sexy notch header */
+.sexy-notch-header:before {
+  content: '';
+  align-items: center;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  width: 100px;
+  height: 40px;
+  background-color: #333;
+  border-radius: 50%;
+  transform: translateX(-50%) rotate(45deg);
+}
+/* Your CSS code with another stylish linear gradient background */
+body {
+  background: linear-gradient(135deg, #decaae, #d66464, #decaae);
+  color: #fff;
+}
+
+.sexy-notch-header {
+  /* Your header styles */
+  background: linear-gradient(to right, #514c57, #44484f);
+  /* Other styles */
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.sexy-notch-header {
+  position: fixed;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.main-content {
+  margin-top: 80px; /* Adjust margin to accommodate fixed header height */
+  /* Other styles for your main content */
+}
+
+
+/* Slideshow and other sections' background can use variations of the above gradients or different ones */
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin-top: 20px; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* 80% of viewport height (adjust as needed) */
+}
+
+/* Centering the image within the container and shifting slightly to the right */
+.mySlides img {
+  max-width: 80%; /* Adjust as needed */
+  max-height: 80%; /* Adjust as needed */
+  object-fit: contain;
+  margin-left: 10%; /* Shift the image to the right by adjusting the margin */
+}
+/* Your existing CSS remains unchanged */
+
+/* Style the dots */
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px; /* Adjust space between dots */
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+/* Style the active dot */
+.active {
+  background-color: #717171;
+}
+/* Your existing CSS remains unchanged */
+
+/* Slideshow container */
+.slideshow-container {
+  /* Your existing styles */
+  position: relative;
+}
+
+ 
+
+/* Dots for image navigation */
+.dots-container {
+  position: absolute;
+  bottom: -30px; /* Adjust the distance from the bottom */
+  width: 100%; /* Full width */
+}
+
+/* Your existing CSS */
+
+/* Small containers for images and offers */
+.small-containers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.small-container {
+  text-align: center;
+  width: 30%; /* Adjust the width as needed */
+}
+
+.small-container img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+/* Your existing CSS */
+/* Styles for search bar */
+.search-bar {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+  width: 200px;
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* ... other styles ... */
+/* Your existing CSS styles */
+
+/* Footer styles */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&family=Rubik:wght@400;500;700&display=swap");
+
+:root {
+  --light: #ffffff;
+  --dark: #000;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h3 {
+  font-family: "Noto Serif Display", serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: #007bff;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: var(--dark);
+  font-weight: 400;
+  transition: 0.3s ease-in;
+  border-bottom: 1px solid transparent;
+  margin-bottom: 0.5rem;
+  display: inline-flex;
+}
+a:hover {
+  border-bottom: 1px solid var(--dark);
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+button {
+  appearance: none;
+  border: 0;
+  background: transparent;
+}
+.flex {
+  display: flex;
+}
+.footer_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+  border: none;
+}
+.footer_inner {
+  background: var(--light);
+  backdrop-filter: blur(50px);
+  border: 0.1px solid rgba(233, 232, 232, 0.208);
+  border-radius: 5px;
+  padding: -1rem;
+  margin: 1rem 0;
+}
+.footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 40vh;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: min(100%, 400px);
+  border-bottom: 1px solid var(--dark);
+}
+
+input {
+  padding: 0.75rem 0;
+  border: none;
+  background: none;
+  font-weight: 500;
+  transition: border 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  border-radius: 0;
+  width: 100%;
+  font-size: 1.05rem;
+  font-weight: bolder;
+}
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: var(--dark);
+}
+@media (min-width: 675px) {
+  .layout {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 2rem;
+  }
+  .w-50 {
+    width: 50%;
+  }
+  .w-25 {
+    width: 25%;
+  }
+}
+form {
+  position: relative;
+}
+svg {
+  margin: 0.5rem;
+}
+.c-2 {
+  margin-top: 3.5rem;
+}
+.footer_copyright {
+  color: var(--light);
+}
+
